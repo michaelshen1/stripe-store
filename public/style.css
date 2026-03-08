@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9f8d77;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', 'Ubuntu', sans-serif;
+    height: 100vh;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  section {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 180px;
+    border-radius: 6px;
+    justify-content: space-between;
+  }
+  
+  section.fit {
+      height: fit-content;
+      padding: 20px;
+  }
+  
+  .product {
+    display: flex;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: -0.154px;
+    color: #242d60;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  img {
+    border-radius: 6px;
+    margin: 10px;
+    width: 135px;
+    height: 140.5px;
+  }
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: -0.154px;
+    color: #000000;
+    margin: 0;
+  }
+  h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 60px;
+    letter-spacing: -0.154px;
+    color: #000000;
+    margin: 0;
+  }
+  h5 {
+    opacity: 0.5;
+  }
+  button {
+    height: 36px;
+    background: #4134af;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.6;
+    border-radius: 0 0 6px 6px;
+    transition: all 0.2s ease;
+  }
+  button:hover {
+    /* Change color entirely since changing opacity only affected half of button in certain cases */
+    background: #675cc7;
+  }
+  
+  h1 {
+    color: #242d60;
+    text-align: center;
+    margin-top: 0; /* Reset margin */
+  }
+  
+  /* Style for lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Reset margin */
+  }
+  
+  /* Style for list items */
+  li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for customer details */
+  #customer_name, #customer_email {
+    font-weight: bold;
+  }
+  
+  /* Style for order total */
+  #order_total {
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Style for payment status */
+  #payment_status {
+    font-weight: bold;
+  }

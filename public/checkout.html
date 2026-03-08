@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael's Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.stripe.com/clover/stripe.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="product">
+        <img src="https://images.booksense.com/images/711/691/9781800691711.jpg" alt="A book about the USA's national parks" />
+        <div class="description">
+          <h3>National Parks</h3>
+          <h5>$50.00</h5>
+        </div>
+      </div>
+      <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+    </section>
+  </body>
+</html>
